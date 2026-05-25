@@ -1,10 +1,10 @@
 services:
   - type: web
     name: walkie-talkie-backend
-    env: node
+    runtime: node
     rootDir: backend
     buildCommand: npm install
     startCommand: npm start
     envVars:
-      - key: PORT
-        value: 3000
+      - key: NODE_ENV
+        value: production

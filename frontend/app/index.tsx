@@ -40,7 +40,7 @@ export default function WalkieTalkieStateController() {
 
   // User Profile & Server Setup
   const [userName, setUserName] = useState('');
-  const [serverUrl, setServerUrl] = useState('http://10.115.47.252:3000');
+  const [serverUrl, setServerUrl] = useState('https://walkie-talkie-backend.onrender.com');
   const [isConnected, setIsConnected] = useState(false);
 
   // Channels History & Search Query
